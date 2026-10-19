@@ -103,3 +103,7 @@ app.delete('/biodata/:id', (req, res) => {
     });
 });
 
+// Jalankan Server
+app.listen(port, () => {
+  console.log(`App running on port ${port}.`);
+});
